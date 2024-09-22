@@ -1,4 +1,3 @@
-
 > [!TIP]
 > "Compound interest is the eighth wonder of the world. He who understands it, earns it. He who doesn't, pays it" - Albert Einstein
 
@@ -8,6 +7,6 @@ This is a compound interest calculator helps you see the magic of compounding in
 
 ## Screenshots
 
-![Calculator 1](./public/s1.png){: height="400px"}
-![Calculator 2](./public/s2.png){: height="400px"}
-![Output](./public/s3.png){: height="400px"}
+<img src="./public/s1.png" alt="Calculator 1" height="400">
+<img src="./public/s2.png" alt="Calculator 2" height="400">
+<img src="./public/s3.png" alt="Output" height="400">
