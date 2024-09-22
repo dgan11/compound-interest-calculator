@@ -5,6 +5,9 @@
 
 This is a compound interest calculator helps you see the magic of compounding in action. And directly compare two different compounding scenarios.
 
+## Try it now!
+[https://compounding.vercel.app/](https://compounding.vercel.app/)
+
 ## Screenshots
 
 <div style="display: flex; flex-direction: row; gap: 10px; overflow-x: auto;">
