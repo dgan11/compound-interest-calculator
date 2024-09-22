@@ -7,6 +7,8 @@ This is a compound interest calculator helps you see the magic of compounding in
 
 ## Screenshots
 
-<img src="./public/s1.png" alt="Calculator 1" height="400">
-<img src="./public/s2.png" alt="Calculator 2" height="400">
-<img src="./public/s3.png" alt="Output" height="400">
+<div style="display: flex; flex-direction: row; gap: 10px; overflow-x: auto;">
+  <img src="./public/s1.png" alt="Calculator 1" height="400">
+  <img src="./public/s2.png" alt="Calculator 2" height="400">
+  <img src="./public/s3.png" alt="Output" height="400">
+</div>
