@@ -317,7 +317,7 @@ export function CompoundInterestCalculatorComponent() {
                 Comparison Chart
               </CardTitle>
             </CardHeader>
-            <CardContent className="p-2">
+            <CardContent className="p-4">
               <div className="w-full h-[400px]">
                 <ResponsiveContainer width="100%" height="100%">
                   <LineChart
