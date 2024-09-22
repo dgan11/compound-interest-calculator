@@ -135,9 +135,8 @@ export function CompoundInterestCalculatorComponent() {
 
   return (
     <div className="min-h-screen bg-[#e6e4dd] font-sans">
-      <h1>HELLO WORLD</h1>
       <div className="container mx-auto p-4 space-y-8">
-        <h1 className="text-5xl font-extrabold text-center mb-8 text-black relative pt-8">
+        <h1 className="text-5xl font-extrabold text-center mb-8 text-black relative pt-4">
           <span className="text-black">
             Compound Interest Calculator
           </span>
@@ -302,7 +301,7 @@ export function CompoundInterestCalculatorComponent() {
                   Remove Comparison
                 </Button>
               ) : (
-                <Button onClick={handleCompare} size="sm" className="w-full text-lg font-bold bg-white text-black border-4 border-black hover:bg-[#eab308] hover:translate-y-1 transition-all">
+                <Button onClick={handleCompare} size="lg" className="w-full text-lg font-bold bg-white text-black border-4 border-black hover:bg-[#eab308] hover:translate-y-1 transition-all">
                   <ArrowUpRight className="mr-2 h-4 w-4" /> Compare
                 </Button>
               )}
@@ -318,7 +317,7 @@ export function CompoundInterestCalculatorComponent() {
                 Comparison Chart
               </CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="p-2">
               <div className="w-full h-[400px]">
                 <ResponsiveContainer width="100%" height="100%">
                   <LineChart
@@ -331,7 +330,8 @@ export function CompoundInterestCalculatorComponent() {
                       tickFormatter={(value) => `${value}`}
                       tick={{ fontSize: 14, fill: '#000000' }}
                       ticks={getXAxisTicks()}
-                      label={{ value: 'Year', position: 'insideBottomRight', offset: -5 }}
+                      label={{ value: 'Year', position: 'insideBottomRight', offset: 3}}
+                      height={44}
                     />
                     <YAxis 
                       tickFormatter={formatYAxisTick}
@@ -342,7 +342,7 @@ export function CompoundInterestCalculatorComponent() {
                       labelFormatter={(label) => `Year ${label}`}
                       contentStyle={{ backgroundColor: '#ffffff', border: '2px solid #000000' }}
                     />
-                    <Legend />
+                      <Legend verticalAlign="bottom" height={36} />
                     <Line 
                       type="monotone" 
                       dataKey="totalValue1" 
